@@ -3,7 +3,7 @@ from kalkulators import saskaitit
 
 class TestKalkulators(unittest.TestCase):
     def test_saskaitit_pozitivus_skaitlus(self):
-        self.assertEqual(saskaitit(2, 3), 999) # apzināti nepareizi
+        self.assertEqual(saskaitit(2, 3), 5) 
     def test_saskaitit_negativus_skaitlus(self):
         self.assertEqual(saskaitit(-2, -3), -5)
     def test_saskaitit_ar_nulli(self):
